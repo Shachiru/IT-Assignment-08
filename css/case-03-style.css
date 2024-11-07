@@ -33,29 +33,46 @@ h1 {
 .light {
   width: 150px;
   height: 80px;
-  background-color: white;
+  background-color: gray;
   border-radius: 8px;
+  transition: opacity 0.3s;
+}
+
+.active {
+    opacity: 1;
 }
 
 .buttons {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 2rem;
 }
 
-#btn-start, #btn-end {
-    width: 90px;
-    height: 30px;
-    font-size: 1.3rem;
-    border: none;
-    color: white;
+#btn-start,
+#btn-end {
+  width: 90px;
+  height: 30px;
+  font-size: 1.3rem;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
 
 #btn-start {
-    background-color: blue;
+  background-color: blue;
+}
+
+#btn-start:hover {
+  background-color: darkblue;
+  font-size: 1rem;
 }
 
 #btn-end {
-    background-color: red;
+  background-color: red;
+}
+
+#btn-end:hover {
+  background-color: darkred;
+  font-size: 1rem;
 }
