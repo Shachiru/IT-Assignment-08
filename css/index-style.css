@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(189, 189, 189);
+}
+
+main {
+  margin: 5rem 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 10rem;
+  color: rgb(41, 62, 65);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.box {
+  width: 500px;
+  height: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease-in;
+  background-color: gray;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.box img {
+  width: 500px;
+  height: 260px;
+  border-radius: 8px;
+}
+
+.details h2 {
+  text-align: center;
+  font-weight: normal;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 4rem 0;
+}
+
+.name p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: rgb(41, 62, 65);
+}
