@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white
+  }
+  
+  section {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .box img {
+    width: 200px;
+    height: 300px;
+  }
+  
+  .box h1 {
+      color: palevioletred;
+  }
